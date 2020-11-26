@@ -2,13 +2,20 @@ venv
 *.pyc
 __pycache__/
 .vscode/
-*.csv
+data/*
+logs/*
 flask_session/
-portfolio-tracker.code-workspace
+zArchive/
+utils/custom_funds.py
+portfolio_tracker.code-workspace
+*.bat
 *.log
+.env
+*.json
+test.py
 
 # Elastic Beanstalk Files
-.elasticbeanstalk/*
+.elasticbeanstalk/
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 .ebignore
